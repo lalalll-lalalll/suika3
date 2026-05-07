@@ -18,6 +18,10 @@
   <img src="https://img.shields.io/badge/License-ZLib-orange.svg">
   <img src="https://img.shields.io/github/stars/awemorris/suika3.svg?style=flat&logo=github&colorB=orange&label=stars">
   <img src="https://img.shields.io/github/forks/awemorris/suika3.svg">
+  <p>
+    <a href="https://github.com/awemorris/suika3/blob/main/README.zh-CN.md">簡体中文</a>&nbsp;|&nbsp;
+    <a href="https://github.com/awemorris/suika3/blob/main/README.ja.md">日本語</a>
+  </p>
 </div>
 
 ---
