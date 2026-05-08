@@ -107,24 +107,30 @@ option(SUIKA_ENABLE_JIT "Enable JIT" OFF)
 option(SUIKA_ENABLE_I18N "Enable translation" OFF)
 
 #
+# [SUIKA_ENABLE_I18N_LIBINTL]
+#  - Enable gettext.
+#
+option(SUIKA_ENABLE_I18N_LIBINTL "Enable gettext" OFF)
+
+#
 # [SUIKA_ENABLE_PACK]
 #  - Build the "suika3-pack" executable that generates package files.
 #
 option(SUIKA_ENABLE_PACK "Enable packager" OFF)
 
 #
-# [SUIKA_ENABLE_BYTECOMP]
+# [SUIKA_ENABLE_BCC]
 #  - Build the "suika3-bcc" executable that generates bytecode files from Ray
 #    scripts.
 #
-option(SUIKA_ENABLE_BYTECOMP "Enable bytecode compiler" OFF)
+option(SUIKA_ENABLE_BCC "Enable bytecode compiler" OFF)
 
 #
-# [SUIKA_ENABLE_AOTCOMP]
+# [SUIKA_ENABLE_AOTC]
 #  - Build the "suika3-aotc" executable that generates a C source file from Ray
 #    scripts.
 #
-option(SUIKA_ENABLE_AOTCOMP "Enable AOT compiler" OFF)
+option(SUIKA_ENABLE_AOTC "Enable AOT compiler" OFF)
 
 #
 # [SUIKA_ENABLE_WEBSERVER]
@@ -229,8 +235,8 @@ else()
     set(SUIKA_ENABLE_JIT                ON)
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
 
   elseif(APPLE AND NOT IOS)
@@ -240,8 +246,8 @@ else()
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_BUNDLE             ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
 
   elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux")
@@ -250,8 +256,8 @@ else()
     set(SUIKA_ENABLE_JIT                ON)
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_GST                ON)   # Use Gstreamer
     set(SUIKA_ENABLE_INSTALL            ON)
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
@@ -262,8 +268,8 @@ else()
     set(SUIKA_ENABLE_JIT                ON)
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_GST                ON)   # Use Gstreamer
     set(SUIKA_ENABLE_INSTALL            ON)
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
@@ -274,8 +280,8 @@ else()
     set(SUIKA_ENABLE_JIT                ON)
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_GST                OFF)  # For older computers.
     set(SUIKA_ENABLE_INSTALL            ON)
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
@@ -286,8 +292,8 @@ else()
     set(SUIKA_ENABLE_JIT                OFF)  # Due to W^X
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_GST                OFF)  # Maybe?
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
     set(SUIKA_ENABLE_INSTALL            ON)
@@ -298,8 +304,8 @@ else()
     set(SUIKA_ENABLE_JIT                OFF)  # XXX: This can be ON.
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
 
@@ -309,8 +315,8 @@ else()
     set(SUIKA_ENABLE_JIT                OFF)  # XXX: This can be ON.
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
     set(SUIKA_ENABLE_FREEDESKTOP        ON)
 
@@ -320,8 +326,8 @@ else()
     set(SUIKA_ENABLE_JIT                ON)
     set(SUIKA_ENABLE_I18N               ON)
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
 
   else()
@@ -330,8 +336,8 @@ else()
     set(SUIKA_ENABLE_JIT                OFF) # XXX: This can be ON.
     set(SUIKA_ENABLE_I18N               OFF) # XXX: Maybe cc can't parse utf-8?
     set(SUIKA_ENABLE_PACK               ON)
-    set(SUIKA_ENABLE_BYTECOMP           ON)
-    set(SUIKA_ENABLE_AOTCOMP            ON)
+    set(SUIKA_ENABLE_BCC           ON)
+    set(SUIKA_ENABLE_AOTC            ON)
     set(SUIKA_ENABLE_INSTALL            ON)
 
   endif()
@@ -350,143 +356,156 @@ endif()
 # PlayfieldEngine Configuration
 #
 
-# Build Playfield Engine as a library.
-if(   SUIKA_ENABLE_STATIC
-   OR SUIKA_ENABLE_SHARED
-   OR SUIKA_ENABLE_OBJECT)
-  # If we build Suika3 as a library, Playfield Engine must be
-  # an object library. (It's a simple solution to merge libraries.)
-  set(PLAYFIELD_ENABLE_OBJECT ON)
-else()
-  # Otherwise, build Playfield Engine as a static library.
-  set(PLAYFIELD_ENABLE_STATIC ON)
+if(   NOT SUIKA_ENABLE_DIST
+   OR     SUIKA_TARGET_MACOS
+   OR     SUIKA_TARGET_MACOS_LIB
+   OR     SUIKA_TARGET_MACOS_CLI)
+  # Build Playfield Engine as a library.
+  if(   SUIKA_ENABLE_STATIC
+     OR SUIKA_ENABLE_SHARED
+     OR SUIKA_ENABLE_OBJECT)
+    # If we build Suika3 as a library, Playfield Engine must be
+    # an object library. (It's a simple solution to merge libraries.)
+    set(PLAYFIELD_ENABLE_OBJECT ON)
+  else()
+    # Otherwise, build Playfield Engine as a static library.
+    set(PLAYFIELD_ENABLE_STATIC ON)
+  endif()
+
+  # Use pf_init_hook() function.
+  set(PLAYFIELD_ENABLE_INITHOOK  ON)
+
+  # Set the target.
+  # (SUIKA_TARGET_XXX --> PLAYFIELD_TARGET_XXX)
+  if(SUIKA_TARGET_WINDOWS)
+    set(PLAYFIELD_TARGET_WINDOWS ON)
+  elseif(SUIKA_TARGET_WINDOWS95)
+    set(PLAYFIELD_TARGET_WINDOWS95 ON)
+  elseif(SUIKA_TARGET_MACOS)
+    set(PLAYFIELD_TARGET_MACOS ON)
+  elseif(SUIKA_TARGET_MACOS_CLI)
+    set(PLAYFIELD_TARGET_MACOS_CLI ON)
+  elseif(SUIKA_TARGET_MACOS_LIB)
+    set(PLAYFIELD_TARGET_MACOS_LIB ON)
+  elseif(SUIKA_TARGET_LINUX)
+    set(PLAYFIELD_TARGET_LINUX ON)
+  elseif(SUIKA_TARGET_LINUX_X11)
+    set(PLAYFIELD_TARGET_LINUX_X11 ON)
+  elseif(SUIKA_TARGET_LINUX_WAYLAND)
+    set(PLAYFIELD_TARGET_LINUX_WAYLAND ON)
+  elseif(SUIKA_TARGET_LINUX_GBM)
+    set(PLAYFIELD_TARGET_LINUX_GBM ON)
+  elseif(SUIKA_TARGET_LINUX_FBDEV)
+    set(PLAYFIELD_TARGET_LINUX_FBDEV ON)
+  elseif(SUIKA_TARGET_LINUX_X11SOFT)
+    set(PLAYFIELD_TARGET_LINUX_X11SOFT ON)
+  elseif(SUIKA_TARGET_IOS)
+    set(PLAYFIELD_TARGET_IOS ON)
+  elseif(SUIKA_TARGET_ANDROID)
+    set(PLAYFIELD_TARGET_ANDROID ON)
+  elseif(SUIKA_TARGET_OPENHARMONY)
+    set(PLAYFIELD_TARGET_OPENHARMONY ON)
+  elseif(SUIKA_TARGET_WASM)
+    set(PLAYFIELD_TARGET_WASM ON)
+  elseif(SUIKA_TARGET_WASM_LOCAL)
+    set(PLAYFIELD_TARGET_WASM_LOCAL ON)
+  elseif(SUIKA_TARGET_UNITY)
+    set(PLAYFIELD_TARGET_UNITY ON)
+  elseif(SUIKA_TARGET_FREEBSD)
+    set(PLAYFIELD_TARGET_FREEBSD ON)
+  elseif(SUIKA_TARGET_FREEBSD_X11)
+    set(PLAYFIELD_TARGET_FREEBSD_X11 ON)
+  elseif(SUIKA_TARGET_FREEBSD_WAYLAND)
+    set(PLAYFIELD_TARGET_FREEBSD_WAYLAND ON)
+  elseif(SUIKA_TARGET_FREEBSD_X11SOFT)
+    set(PLAYFIELD_TARGET_FREEBSD_X11SOFT ON)
+  elseif(SUIKA_TARGET_NETBSD)
+    set(PLAYFIELD_TARGET_NETBSD ON)
+  elseif(SUIKA_TARGET_NETBSD_X11SOFT)
+    set(PLAYFIELD_TARGET_NETBSD_X11SOFT ON)
+  elseif(SUIKA_TARGET_OPENBSD)
+    set(PLAYFIELD_TARGET_OPENBSD ON)
+  elseif(SUIKA_TARGET_OPENBSD_X11SOFT)
+    set(PLAYFIELD_TARGET_OPENBSD_X11SOFT ON)
+  elseif(SUIKA_TARGET_SOLARIS11)
+    set(PLAYFIELD_TARGET_SOLARIS11 ON)
+  elseif(SUIKA_TARGET_SOLARIS10)
+    set(PLAYFIELD_TARGET_SOLARIS10 ON)
+  elseif(SUIKA_TARGET_GENERICUNIX)
+    set(PLAYFIELD_TARGET_GENERICUNIX ON)
+  elseif(SUIKA_TARGET_HAIKU)
+    set(PLAYFIELD_TARGET_HAIKU ON)
+  elseif(SUIKA_TARGET_GDK_WINDOWS)
+    set(PLAYFIELD_TARGET_GDK_WINDOWS ON)
+  elseif(SUIKA_TARGET_GDK_XBOX_XS)
+    set(PLAYFIELD_TARGET_GDK_XBOX_XS ON)
+  else()
+    error("No target specified or detected.")
+  endif()
+
+  # Unity target arch
+  if(SUIKA_TARGET_UNITY_SWITCH)
+    set(PLAYFIELD_TARGET_UNITY_SWITCH)
+  elseif(SUIKA_TARGET_UNITY_PS5)
+    set(PLAYFIELD_TARGET_UNITY_PS5)
+  elseif(SUIKA_TARGET_UNITY_XBOX)
+    set(PLAYFIELDTARGET_UNITY_XBOX)
+  endif()
+
+  # Use JIT
+  if(SUIKA_ENABLE_JIT)
+    set(PLAYFIELD_ENABLE_JIT ON)
+  else()
+    set(PLAYFIELD_ENABLE_JIT OFF)
+  endif()
+
+  # Use I18N
+  if(SUIKA_ENABLE_I18N)
+    set(PLAYFIELD_ENABLE_I18N ON)
+  endif()
+
+  # Use Gstreamer
+  if(SUIKA_ENABLE_GST)
+    set(PLAYFIELD_ENABLE_GST ON)
+  endif()
+
+  # main() --> main2()
+  if(SUIKA_ENABLE_MAIN2)
+    set(PLAYFIELD_ENABLE_MAIN2 ON)
+  endif()
+
+  # Console for debug output on Windows.
+  if(SUIKA_ENABLE_CONSOLE)
+    set(PLAYFIELD_ENABLE_CONSOLE ON)
+  endif()
+
+  # Build libstratopack for suika3-pack
+  if(SUIKA_ENABLE_PACK)
+    set(PLAYFIELD_ENABLE_PACK ON)
+  endif()
+
+  # Unsafe (for launchers)
+  if(SUIKA_ENABLE_UNSAFE)
+    set(PLAYFIELD_ENABLE_UNSAFE ON)
+  endif()
+
+  # Portal
+  if(SUIKA_ENABLE_PORTAL)
+    set(PLAYFIELD_ENABLE_PORTAL ON)
+  endif()
 endif()
 
-# Use pf_init_hook() function.
-set(PLAYFIELD_ENABLE_INITHOOK  ON)
+# ---
 
-# Set the target.
-# (SUIKA_TARGET_XXX --> PLAYFIELD_TARGET_XXX)
-if(SUIKA_TARGET_WINDOWS)
-  set(PLAYFIELD_TARGET_WINDOWS ON)
-elseif(SUIKA_TARGET_WINDOWS95)
-  set(PLAYFIELD_TARGET_WINDOWS95 ON)
-elseif(SUIKA_TARGET_MACOS)
-  set(PLAYFIELD_TARGET_MACOS ON)
-elseif(SUIKA_TARGET_MACOS_CLI)
-  set(PLAYFIELD_TARGET_MACOS_CLI ON)
-elseif(SUIKA_TARGET_MACOS_LIB)
-  set(PLAYFIELD_TARGET_MACOS_LIB ON)
-elseif(SUIKA_TARGET_LINUX)
-  set(PLAYFIELD_TARGET_LINUX ON)
-elseif(SUIKA_TARGET_LINUX_X11)
-  set(PLAYFIELD_TARGET_LINUX_X11 ON)
-elseif(SUIKA_TARGET_LINUX_WAYLAND)
-  set(PLAYFIELD_TARGET_LINUX_WAYLAND ON)
-elseif(SUIKA_TARGET_LINUX_GBM)
-  set(PLAYFIELD_TARGET_LINUX_GBM ON)
-elseif(SUIKA_TARGET_LINUX_FBDEV)
-  set(PLAYFIELD_TARGET_LINUX_FBDEV ON)
-elseif(SUIKA_TARGET_LINUX_X11SOFT)
-  set(PLAYFIELD_TARGET_LINUX_X11SOFT ON)
-elseif(SUIKA_TARGET_IOS)
-  set(PLAYFIELD_TARGET_IOS ON)
-elseif(SUIKA_TARGET_ANDROID)
-  set(PLAYFIELD_TARGET_ANDROID ON)
-elseif(SUIKA_TARGET_OPENHARMONY)
-  set(PLAYFIELD_TARGET_OPENHARMONY ON)
-elseif(SUIKA_TARGET_WASM)
-  set(PLAYFIELD_TARGET_WASM ON)
-elseif(SUIKA_TARGET_WASM_LOCAL)
-  set(PLAYFIELD_TARGET_WASM_LOCAL ON)
-elseif(SUIKA_TARGET_UNITY)
-  set(PLAYFIELD_TARGET_UNITY ON)
-elseif(SUIKA_TARGET_FREEBSD)
-  set(PLAYFIELD_TARGET_FREEBSD ON)
-elseif(SUIKA_TARGET_FREEBSD_X11)
-  set(PLAYFIELD_TARGET_FREEBSD_X11 ON)
-elseif(SUIKA_TARGET_FREEBSD_WAYLAND)
-  set(PLAYFIELD_TARGET_FREEBSD_WAYLAND ON)
-elseif(SUIKA_TARGET_FREEBSD_X11SOFT)
-  set(PLAYFIELD_TARGET_FREEBSD_X11SOFT ON)
-elseif(SUIKA_TARGET_NETBSD)
-  set(PLAYFIELD_TARGET_NETBSD ON)
-elseif(SUIKA_TARGET_NETBSD_X11SOFT)
-  set(PLAYFIELD_TARGET_NETBSD_X11SOFT ON)
-elseif(SUIKA_TARGET_OPENBSD)
-  set(PLAYFIELD_TARGET_OPENBSD ON)
-elseif(SUIKA_TARGET_OPENBSD_X11SOFT)
-  set(PLAYFIELD_TARGET_OPENBSD_X11SOFT ON)
-elseif(SUIKA_TARGET_SOLARIS11)
-  set(PLAYFIELD_TARGET_SOLARIS11 ON)
-elseif(SUIKA_TARGET_SOLARIS10)
-  set(PLAYFIELD_TARGET_SOLARIS10 ON)
-elseif(SUIKA_TARGET_GENERICUNIX)
-  set(PLAYFIELD_TARGET_GENERICUNIX ON)
-elseif(SUIKA_TARGET_HAIKU)
-  set(PLAYFIELD_TARGET_HAIKU ON)
-elseif(SUIKA_TARGET_GDK_WINDOWS)
-  set(PLAYFIELD_TARGET_GDK_WINDOWS ON)
-elseif(SUIKA_TARGET_GDK_XBOX_XS)
-  set(PLAYFIELD_TARGET_GDK_XBOX_XS ON)
-else()
-  error("No target specified or detected.")
-endif()
+#
+# gettext
+#
 
-# Unity target arch
-if(SUIKA_TARGET_UNITY_SWITCH)
-  set(PLAYFIELD_TARGET_UNITY_SWITCH)
-elseif(SUIKA_TARGET_UNITY_PS5)
-  set(PLAYFIELD_TARGET_UNITY_PS5)
-elseif(SUIKA_TARGET_UNITY_XBOX)
-  set(PLAYFIELDTARGET_UNITY_XBOX)
-endif()
-
-# When building for an OS's packager
-if(SUIKA_ENABLE_DIST)
-  set(PLAYFIELD_ENABLE_DIST ON)
-endif()
-
-# Use JIT
-if(SUIKA_ENABLE_JIT)
-  set(PLAYFIELD_ENABLE_JIT ON)
-else()
-  set(PLAYFIELD_ENABLE_JIT OFF)
-endif()
-
-# Use I18N
-if(SUIKA_ENABLE_I18N)
-  set(PLAYFIELD_ENABLE_I18N ON)
-endif()
-
-# Use Gstreamer
-if(SUIKA_ENABLE_GST)
-  set(PLAYFIELD_ENABLE_GST ON)
-endif()
-
-# main() --> main2()
-if(SUIKA_ENABLE_MAIN2)
-  set(PLAYFIELD_ENABLE_MAIN2 ON)
-endif()
-
-# Console for debug output on Windows.
-if(SUIKA_ENABLE_CONSOLE)
-  set(PLAYFIELD_ENABLE_CONSOLE ON)
-endif()
-  
-# Build libstratopack for suika3-pack
-if(SUIKA_ENABLE_PACK)
-  set(PLAYFIELD_ENABLE_PACK ON)
-endif()
-
-# Unsafe (for launchers)
-if(SUIKA_ENABLE_UNSAFE)
-  set(PLAYFIELD_ENABLE_UNSAFE ON)
-endif()
-
-# Portal
-if(SUIKA_ENABLE_PORTAL)
-  set(PLAYFIELD_ENABLE_PORTAL ON)
+if(SUIKA_ENABLE_I18N_LIBINTL)
+  list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules")
+  find_package(INTL REQUIRED)
+  include(GNUInstallDirs)
+  add_definitions(-DLOCALEDIR="${CMAKE_INSTALL_FULL_LOCALEDIR}")
 endif()
 
 # ---
@@ -553,11 +572,16 @@ endif()
 # Dependencies
 #
 
-# Playfield Engine
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/PlayfieldEngine)
-
-# Change the startup file name. (main.pf --> main.ray)
-target_compile_definitions(playfield PRIVATE STARTUP_FILE="main.ray")
+if(NOT SUIKA_ENABLE_DIST)
+  # Playfield Engine
+  add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/PlayfieldEngine)
+else()
+  # Use system libraries.
+  list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules")
+  find_package(Playfield REQUIRED)
+  find_package(StratoHAL REQUIRED)
+  find_package(Noct REQUIRED)
+endif()
 
 # ---
 
@@ -797,12 +821,21 @@ endif()
 #
 
 # Link Playfield Engine
-target_link_libraries(suika3 PRIVATE
-  playfield
-  strato
-  playfield  # Specify twice to resolve circular references.
-  noctlang
-)
+if(NOT SUIKA_ENABLE_DIST)
+  target_link_libraries(suika3 PRIVATE
+    playfield
+    strato
+    playfield  # Specify twice to resolve circular references.
+    noctlang
+  )
+else()
+  target_link_libraries(suika3 PRIVATE
+    ${PLAYFIELD_LIBRARY}
+    ${STRATO_LIBRARY}
+    ${PLAYFIELD_LIBRARY}  # Specify twice to resolve circular references.
+    ${NOCT_LIBRARY}
+  )
+endif()
 
 # Windows
 if(SUIKA_TARGET_WINDOWS)
@@ -825,6 +858,28 @@ endif()
 # macOS
 if(SUIKA_TARGET_MACOS_LIB)
   target_link_options(suika3 PRIVATE -ObjC -all_load)
+endif()
+
+# Linux
+if(   SUIKA_TARGET_LINUX
+   OR SUIKA_TARGET_LINUX_X11
+   OR SUIKA_TARGET_LINUX_WAYLAND
+   OR SUIKA_TARGET_LINUX_GBM
+   OR SUIKA_TARGET_LINUX_FBDEV
+   OR SUIKA_TARGET_LINUX_X11SOFT
+   OR SUIKA_TARGET_FREEBSD
+   OR SUIKA_TARGET_FREEBSD_X11
+   OR SUIKA_TARGET_FREEBSD_WAYLAND
+   OR SUIKA_TARGET_FREEBSD_X11SOFT
+   OR SUIKA_TARGET_NETBSD
+   OR SUIKA_TARGET_NETBSD_X11SOFT
+   OR SUIKA_TARGET_OPENBSD
+   OR SUIKA_TARGET_OPENBSD_X11SOFT
+   OR SUIKA_TARGET_SOLARIS10
+   OR SUIKA_TARGET_SOLARIS11
+   OR SUIKA_TARGET_GENERICUNIX
+   OR SUIKA_TARGET_HAIKU)
+  target_link_libraries(suika3 PRIVATE m)
 endif()
 
 # Emscripten
@@ -906,15 +961,15 @@ endif()
 # Bytcode Compiler Target (The "suika3-bcc" executable)
 #
 
-if(SUIKA_ENABLE_BYTECOMP)
+if(SUIKA_ENABLE_BCC)
   if (SUIKA_TARGET_WINDOWS)
-    set(SUIKA_BYTECOMP_RESOURCE resources/windows/bytecomp-resource.rc)
+    set(SUIKA_BCC_RESOURCE resources/windows/bytecomp-resource.rc)
   endif()
 
   add_executable(
     suika3-bcc
     external/PlayfieldEngine/src/compiler.c
-    ${SUIKA_BYTECOMP_RESOURCE}
+    ${SUIKA_BCC_RESOURCE}
   )
 
   target_include_directories(
@@ -927,7 +982,11 @@ if(SUIKA_ENABLE_BYTECOMP)
     external/PlayfieldEngine/external/NoctLang/src/backend
   )
 
-  target_link_libraries(suika3-bcc noctlang)
+  if(NOT SUIKA_ENABLE_DIST)
+    target_link_libraries(suika3-bcc noct)
+  else()
+    target_link_libraries(suika3-bcc ${NOCT_LIBRARY})
+  endif()
 
   if(UNIX)
     target_link_libraries(suika3-bcc m)
@@ -940,16 +999,16 @@ endif()
 # AOT Compiler Target (The "suika3-aotc" executable)
 #
 
-if(SUIKA_ENABLE_AOTCOMP)
+if(SUIKA_ENABLE_AOTC)
   if (SUIKA_TARGET_WINDOWS)
-    set(SUIKA_AOTCOMP_RESOURCE resources/windows/aotcomp-resource.rc)
+    set(SUIKA_AOTC_RESOURCE resources/windows/aotcomp-resource.rc)
   endif()
 
   add_executable(
     suika3-aotc
     external/PlayfieldEngine/src/aot.c
     external/PlayfieldEngine/external/NoctLang/src/backend/cback.c
-    ${SUIKA_AOTCOMP_RESOURCE}
+    ${SUIKA_AOTC_RESOURCE}
   )
 
   target_include_directories(
@@ -962,7 +1021,11 @@ if(SUIKA_ENABLE_AOTCOMP)
     external/PlayfieldEngine/external/NoctLang/src/backend
   )
 
-  target_link_libraries(suika3-aotc noctlang)
+  if(NOT SUIKA_ENABLE_DIST)
+    target_link_libraries(suika3-aotc noct)
+  else()
+    target_link_libraries(suika3-aotc ${NOCT_LIBRARY})
+  endif()
 
   if(UNIX)
     target_link_libraries(suika3-aotc m)
@@ -1048,12 +1111,12 @@ if(SUIKA_ENABLE_INSTALL)
   endif()
 
   # "suika3-bcc" command. (bytecode compiler)
-  if(SUIKA_ENABLE_BYTECOMP)
+  if(SUIKA_ENABLE_BCC)
     install(TARGETS suika3-bcc   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
   endif()
 
   # "suika3-aotc" command. (AOT compiler)
-  if(SUIKA_ENABLE_AOTCOMP)
+  if(SUIKA_ENABLE_AOTC)
     install(TARGETS suika3-aotc  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
   endif()
 
