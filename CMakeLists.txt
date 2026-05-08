@@ -52,6 +52,7 @@ option(SUIKA_TARGET_HAIKU            "Build for Haiku OS (Soft3D)"              
 #    dependencies such as libpng, libvorbis, and freetype2.
 #
 option(SUIKA_ENABLE_DIST "Build for OS package" OFF)
+option(SUIKA_ENABLE_DIST_SINGLE "Build for OS package (but suika3-only)" OFF)
 
 #
 # [SUIKA_ENABLE_INSTALL]
