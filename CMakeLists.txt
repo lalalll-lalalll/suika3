@@ -840,6 +840,7 @@ else()
     ${STRATO_LIBRARY}
     ${PLAYFIELD_LIBRARY}  # Specify twice to resolve circular references.
     ${NOCT_LIBRARY}
+    noctapi
   )
 endif()
 
