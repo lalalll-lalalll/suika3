@@ -19,8 +19,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -44,8 +44,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -69,8 +69,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -95,8 +95,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -160,8 +160,8 @@
                 "CMAKE_MSVC_RUNTIME_LIBRARY":   "MultiThreaded$<$<CONFIG:Debug>:Debug>",
                 "SUIKA_ENABLE_I18N":            "OFF",
                 "SUIKA_ENABLE_PACK":            "OFF",
-                "SUIKA_ENABLE_BYTECOMP":        "OFF",
-                "SUIKA_ENABLE_AOTCOMP":         "OFF",
+                "SUIKA_ENABLE_BCC":        "OFF",
+                "SUIKA_ENABLE_AOTC":         "OFF",
                 "SUIKA_ENABLE_WEBSERVER":       "OFF"
             },
             "condition": {
@@ -182,8 +182,8 @@
                 "SUIKA_ENABLE_JIT":             "OFF",
                 "SUIKA_ENABLE_I18N":            "OFF",
                 "SUIKA_ENABLE_PACK":            "OFF",
-                "SUIKA_ENABLE_BYTECOMP":        "OFF",
-                "SUIKA_ENABLE_AOTCOMP":         "OFF",
+                "SUIKA_ENABLE_BCC":        "OFF",
+                "SUIKA_ENABLE_AOTC":         "OFF",
                 "SUIKA_ENABLE_WEBSERVER":       "OFF"
             },
             "condition": {
@@ -207,8 +207,8 @@
                 "SUIKA_ENABLE_JIT":                         "OFF",
                 "SUIKA_ENABLE_I18N":                        "OFF",
                 "SUIKA_ENABLE_PACK":                        "OFF",
-                "SUIKA_ENABLE_BYTECOMP":                    "OFF",
-                "SUIKA_ENABLE_AOTCOMP":                     "OFF",
+                "SUIKA_ENABLE_BCC":                    "OFF",
+                "SUIKA_ENABLE_AOTC":                     "OFF",
                 "SUIKA_ENABLE_WEBSERVER":                   "OFF"
             },
             "condition": {
@@ -232,8 +232,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -256,8 +256,8 @@
                 "SUIKA_ENABLE_JIT":                         "ON",
                 "SUIKA_ENABLE_I18N":                        "ON",
                 "SUIKA_ENABLE_PACK":                        "ON",
-                "SUIKA_ENABLE_BYTECOMP":                    "ON",
-                "SUIKA_ENABLE_AOTCOMP":                     "ON",
+                "SUIKA_ENABLE_BCC":                    "ON",
+                "SUIKA_ENABLE_AOTC":                     "ON",
                 "SUIKA_ENABLE_WEBSERVER":                   "ON"
             },
             "condition": {
@@ -329,8 +329,8 @@
                 "SUIKA_ENABLE_JIT":                         "ON",
                 "SUIKA_ENABLE_I18N":                        "ON",
                 "SUIKA_ENABLE_PACK":                        "ON",
-                "SUIKA_ENABLE_BYTECOMP":                    "ON",
-                "SUIKA_ENABLE_AOTCOMP":                     "ON",
+                "SUIKA_ENABLE_BCC":                    "ON",
+                "SUIKA_ENABLE_AOTC":                     "ON",
                 "SUIKA_ENABLE_WEBSERVER":                   "ON"
             },
             "condition": {
@@ -354,8 +354,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -378,8 +378,8 @@
                 "SUIKA_ENABLE_JIT":                         "ON",
                 "SUIKA_ENABLE_I18N":                        "ON",
                 "SUIKA_ENABLE_PACK":                        "ON",
-                "SUIKA_ENABLE_BYTECOMP":                    "ON",
-                "SUIKA_ENABLE_AOTCOMP":                     "ON",
+                "SUIKA_ENABLE_BCC":                    "ON",
+                "SUIKA_ENABLE_AOTC":                     "ON",
                 "SUIKA_ENABLE_WEBSERVER":                   "ON"
             },
             "condition": {
@@ -404,8 +404,8 @@
                 "SUIKA_ENABLE_JIT":             "ON",
                 "SUIKA_ENABLE_I18N":            "ON",
                 "SUIKA_ENABLE_PACK":            "ON",
-                "SUIKA_ENABLE_BYTECOMP":        "ON",
-                "SUIKA_ENABLE_AOTCOMP":         "ON",
+                "SUIKA_ENABLE_BCC":        "ON",
+                "SUIKA_ENABLE_AOTC":         "ON",
                 "SUIKA_ENABLE_WEBSERVER":       "ON"
             },
             "condition": {
@@ -468,8 +468,8 @@
                 "SUIKA_ENABLE_JIT":                         "ON",
                 "SUIKA_ENABLE_I18N":                        "OFF",
                 "SUIKA_ENABLE_PACK":                        "OFF",
-                "SUIKA_ENABLE_BYTECOMP":                    "OFF",
-                "SUIKA_ENABLE_AOTCOMP":                     "OFF",
+                "SUIKA_ENABLE_BCC":                    "OFF",
+                "SUIKA_ENABLE_AOTC":                     "OFF",
                 "SUIKA_ENABLE_WEBSERVER":                   "OFF"
             },
             "condition": {
@@ -490,8 +490,8 @@
                 "SUIKA_ENABLE_JIT":                         "ON",
                 "SUIKA_ENABLE_I18N":                        "OFF",
                 "SUIKA_ENABLE_PACK":                        "OFF",
-                "SUIKA_ENABLE_BYTECOMP":                    "OFF",
-                "SUIKA_ENABLE_AOTCOMP":                     "OFF",
+                "SUIKA_ENABLE_BCC":                    "OFF",
+                "SUIKA_ENABLE_AOTC":                     "OFF",
                 "SUIKA_ENABLE_WEBSERVER":                   "OFF"
             },
             "condition": {
@@ -513,8 +513,8 @@
                 "SUIKA_ENABLE_JIT":        "ON",
                 "SUIKA_ENABLE_I18N":       "ON",
                 "SUIKA_ENABLE_PACK":       "ON",
-                "SUIKA_ENABLE_BYTECOMP":   "ON",
-                "SUIKA_ENABLE_AOTCOMP":    "ON",
+                "SUIKA_ENABLE_BCC":   "ON",
+                "SUIKA_ENABLE_AOTC":    "ON",
                 "SUIKA_ENABLE_WEBSERVER":  "ON"
             }
         },
@@ -531,8 +531,8 @@
                 "SUIKA_ENABLE_JIT":        "ON",
                 "SUIKA_ENABLE_I18N":       "ON",
                 "SUIKA_ENABLE_PACK":       "ON",
-                "SUIKA_ENABLE_BYTECOMP":   "ON",
-                "SUIKA_ENABLE_AOTCOMP":    "ON",
+                "SUIKA_ENABLE_BCC":   "ON",
+                "SUIKA_ENABLE_AOTC":    "ON",
                 "SUIKA_ENABLE_WEBSERVER":  "ON"
             }
         },
@@ -549,8 +549,8 @@
                 "SUIKA_ENABLE_JIT":        "ON",
                 "SUIKA_ENABLE_I18N":       "ON",
                 "SUIKA_ENABLE_PACK":       "ON",
-                "SUIKA_ENABLE_BYTECOMP":   "ON",
-                "SUIKA_ENABLE_AOTCOMP":    "ON",
+                "SUIKA_ENABLE_BCC":   "ON",
+                "SUIKA_ENABLE_AOTC":    "ON",
                 "SUIKA_ENABLE_WEBSERVER":  "ON",
                 "SUIKA_ENABLE_CONSOLE":    "ON"
             }
@@ -568,8 +568,8 @@
                 "SUIKA_ENABLE_JIT":        "ON",
                 "SUIKA_ENABLE_I18N":       "ON",
                 "SUIKA_ENABLE_PACK":       "ON",
-                "SUIKA_ENABLE_BYTECOMP":   "ON",
-                "SUIKA_ENABLE_AOTCOMP":    "ON",
+                "SUIKA_ENABLE_BCC":   "ON",
+                "SUIKA_ENABLE_AOTC":    "ON",
                 "SUIKA_ENABLE_WEBSERVER":  "ON",
                 "SUIKA_ENABLE_UNSAFE":     "ON"
             }
@@ -586,8 +586,8 @@
                 "SUIKA_ENABLE_JIT":                         "OFF",
                 "SUIKA_ENABLE_I18N":                        "OFF",
                 "SUIKA_ENABLE_PACK":                        "ON",
-                "SUIKA_ENABLE_BYTECOMP":                    "ON",
-                "SUIKA_ENABLE_AOTCOMP":                     "ON",
+                "SUIKA_ENABLE_BCC":                    "ON",
+                "SUIKA_ENABLE_AOTC":                     "ON",
                 "SUIKA_ENABLE_WEBSERVER":                   "ON"
             }
         },
@@ -604,8 +604,8 @@
                 "SUIKA_ENABLE_JIT":        "ON",
                 "SUIKA_ENABLE_I18N":       "ON",
                 "SUIKA_ENABLE_PACK":       "ON",
-                "SUIKA_ENABLE_BYTECOMP":   "ON",
-                "SUIKA_ENABLE_AOTCOMP":    "ON",
+                "SUIKA_ENABLE_BCC":   "ON",
+                "SUIKA_ENABLE_AOTC":    "ON",
                 "SUIKA_ENABLE_WEBSERVER":  "ON"
             }
         },
@@ -637,8 +637,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_CONSOLE":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -657,8 +657,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_CONSOLE":        "ON"
             }
         },
@@ -677,8 +677,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "OFF",
-                "SUIKA_ENABLE_BYTECOMP":       "OFF",
-                "SUIKA_ENABLE_AOTCOMP":        "OFF"
+                "SUIKA_ENABLE_BCC":       "OFF",
+                "SUIKA_ENABLE_AOTC":        "OFF"
             }
         },
         {
@@ -694,8 +694,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_PORTAL":         "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
@@ -714,8 +714,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_PORTAL":         "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
@@ -734,8 +734,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -753,8 +753,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -772,8 +772,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -791,8 +791,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -809,8 +809,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -828,8 +828,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -846,8 +846,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_GST":            "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
@@ -865,8 +865,8 @@
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_I18N":           "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
         },
@@ -1113,8 +1113,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON",
                 "SUIKA_ENABLE_GST":            "ON"
             }
@@ -1131,8 +1131,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON",
                 "SUIKA_ENABLE_GST":            "ON"
             }
@@ -1149,8 +1149,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON",
                 "SUIKA_ENABLE_GST":            "ON"
             }
@@ -1167,8 +1167,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON",
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
         },
@@ -1184,8 +1184,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1200,8 +1200,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1216,8 +1216,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "OFF",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1232,8 +1232,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "OFF",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1250,8 +1250,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "OFF",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1269,8 +1269,8 @@
                 "SUIKA_ENABLE_FREEDESKTOP":    "ON",
                 "SUIKA_ENABLE_JIT":            "OFF",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1286,8 +1286,8 @@
                 "SUIKA_ENABLE_INSTALL":        "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":       "ON",
+                "SUIKA_ENABLE_AOTC":        "ON"
             }
         },
         {
@@ -1303,8 +1303,8 @@
                 "SUIKA_ENABLE_INSTALL":        "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":            "ON",
+                "SUIKA_ENABLE_AOTC":           "ON"
             }
         },
         {
@@ -1320,8 +1320,8 @@
                 "SUIKA_ENABLE_INSTALL":        "ON",
                 "SUIKA_ENABLE_JIT":            "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":            "ON",
+                "SUIKA_ENABLE_AOTC":           "ON"
             }
         },
         {
@@ -1336,8 +1336,8 @@
                 "SUIKA_TARGET_HAIKU":          "ON",
                 "SUIKA_ENABLE_INSTALL":        "ON",
                 "SUIKA_ENABLE_PACK":           "ON",
-                "SUIKA_ENABLE_BYTECOMP":       "ON",
-                "SUIKA_ENABLE_AOTCOMP":        "ON"
+                "SUIKA_ENABLE_BCC":            "ON",
+                "SUIKA_ENABLE_AOTC":           "ON"
             }
         }
     ],
