@@ -625,11 +625,48 @@ sound.vol.per_character=1.0
 #  - für Namensübersetzung, Lippensynchronisation, Autofokus usw.
 #
 
-character.name1=Midori character.name1.en=Midori character.name1.zh-cn=美登利 character.name1.zh-tw=美登利 character.name1.ja=みどり
+character.name1=Midori
+character.name1.en=Midori
+character.name1.zh-cn=美登利
+character.name1.zh-tw=美登利
+character.name1.ja=みどり
 
-character.name2=Xiaoling character.name2.en=Xiaoling character.name2.zh-cn=小玲 character.name2.zh-tw=小玲 character.name2.ja=シャオリン
+character.name2=Xiaoling
+character.name2.en=Xiaoling
+character.name2.zh-cn=小玲
+character.name2.zh-tw=小玲
+character.name2.ja=シャオリン
 
-#character.name3= #character.name4= #character.name5= #character.name6= #character.name7= #character.name8= #character.name9= #character.name10= #character.name11= #character.name12= #character.name13= #character.name14= #character.name15= #character.name16= #character.name17= #character.name18= #character.name19= #character.name20= #character.name21= #character.name22= #character.name23= #character.name24= #character.name25= #character.name26= #character.name27= #character.name28= #character.name29= #character.name30= #character.name31= #character.name32=
+#character.name3=
+#character.name4=
+#character.name5=
+#character.name6=
+#character.name7=
+#character.name8=
+#character.name9=
+#character.name10=
+#character.name11=
+#character.name12=
+#character.name13=
+#character.name14=
+#character.name15=
+#character.name16=
+#character.name17=
+#character.name18=
+#character.name19=
+#character.name20=
+#character.name21=
+#character.name22=
+#character.name23=
+#character.name24=
+#character.name25=
+#character.name26=
+#character.name27=
+#character.name28=
+#character.name29=
+#character.name30=
+#character.name31=
+#character.name32=
 
 #
 # Unterordner für Charakterbilder (für Lippensynchronisation und automatischen Fokus)
