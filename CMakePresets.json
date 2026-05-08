@@ -659,7 +659,7 @@
                 "SUIKA_ENABLE_PACK":           "ON",
                 "SUIKA_ENABLE_BCC":            "ON",
                 "SUIKA_ENABLE_AOTC":           "ON",
-                "SUIKA_ENABLE_CONSOLE":        "ON"
+                "SUIKA_ENABLE_CONSOLE":        "ON",
                 "SUIKA_ENABLE_UNSAFE":         "ON"
             }
         },

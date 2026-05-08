@@ -823,11 +823,16 @@ endif()
 
 # Link Playfield Engine
 if(NOT SUIKA_ENABLE_DIST)
+  if(SUIKA_ENABLE_UNSAFE)
+    set(NOCTAPI_LIB noctapi)
+  endif()
+
   target_link_libraries(suika3 PRIVATE
     playfield
     strato
     playfield  # Specify twice to resolve circular references.
     noct
+    ${NOCTAPI_LIB}
   )
 else()
   target_link_libraries(suika3 PRIVATE
