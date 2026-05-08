@@ -938,7 +938,6 @@ if(SUIKA_ENABLE_PACK)
 
   add_executable(
     suika3-pack
-    external/PlayfieldEngine/external/StratoHAL/src/archive.c
     external/PlayfieldEngine/src/pack.c
     ${SUIKA_PACK_RESOURCE}
   )
